@@ -1,0 +1,37 @@
+# Node modules and build artifacts
+node_modules/
+dist/
+tmp/
+coverage/
+test-results/
+playwright-report/
+blob-report/
+allure-results/
+
+# Playwright specific
+.local-browsers/
+playwright.env
+
+# Logs and debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# Environment variables
+.env
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS-specific
+Thumbs.db
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
