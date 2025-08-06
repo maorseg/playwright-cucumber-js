@@ -1,7 +1,7 @@
 const { Given } = require('@cucumber/cucumber');
 const { chromium } = require('playwright');
 const { setDefaultTimeout } = require('@cucumber/cucumber');
-const testData = require('./testData.json');
+const testData = require('../../data/testData.json');
 setDefaultTimeout(30 * 1000);
 
 Given('I open the homepage', async function () {

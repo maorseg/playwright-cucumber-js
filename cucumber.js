@@ -1,3 +1,6 @@
 module.exports = {
-  default: `--require step-definitions/**/*.js features`
+  default: [
+    '--require features/step-definitions/*.js',
+    '--require support/*.js',
+  ].join(' ')
 };
