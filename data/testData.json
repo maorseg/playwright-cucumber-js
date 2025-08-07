@@ -1,4 +1,6 @@
 {
   "homepageURL": "https://www.automationexercise.com",
-  "homepageTitle": "Automation Exercise"
+  "homepageTitle": "Automation Exercise",
+  "successfulLogin": "Logged in",
+  "failedLogin": "Your email or password is incorrect!"
 }
