@@ -4,7 +4,7 @@
   "description": "playwright-cucumber-js",
   "main": "index.js",
   "scripts": {
-    "test": "npx cucumber-js"
+    "test": "npx cucumber-js --exit"
   },
   "repository": {
     "type": "git",
