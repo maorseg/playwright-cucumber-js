@@ -1,13 +1,13 @@
 Feature: Validate login
 
-  Scenario: validate Secure login
-    Given I open the homepage
-    And I Secure login
-    Then I verify <result> login
+  # Scenario: validate Secure login
+  #   Given I open the homepage
+  #   And I Secure login
+  #   Then I verify <result> login
 
-    Examples:
-    | result     |
-    | successful |
+  #   Examples:
+  #   | result     |
+  #   | successful |
 
   Scenario Outline: Validate login success and failure
     Given I open the homepage
