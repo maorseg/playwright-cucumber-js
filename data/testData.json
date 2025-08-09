@@ -2,5 +2,7 @@
   "homepageURL": "https://www.automationexercise.com",
   "homepageTitle": "Automation Exercise",
   "successfulLogin": "Logged in",
-  "failedLogin": "Your email or password is incorrect!"
+  "failedLogin": "Your email or password is incorrect!",
+  "blueTop": "Blue Top",
+  "addedToCart": "Your product has been added"
 }

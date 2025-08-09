@@ -23,3 +23,9 @@ Then('I verify failed login', async function () {
    await expect(page.getByText(testData.failedLogin)).toBeVisible();
  });
 
+Then('I verify product added to cart', async function () {
+   const page = this.page;
+    await expect(page.getByText(testData.addedToCart)).toBeVisible();
+ });
+ 
+

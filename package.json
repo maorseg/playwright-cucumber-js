@@ -4,7 +4,8 @@
   "description": "playwright-cucumber-js",
   "main": "index.js",
   "scripts": {
-    "test": "npx cucumber-js  --tags '@smoke' --exit"
+    "production": "npx cucumber-js --tags '@smoke' --exit",
+    "test": "npx cucumber-js"
   },
   "repository": {
     "type": "git",
