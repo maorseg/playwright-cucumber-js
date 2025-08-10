@@ -1,6 +1,8 @@
 const { Before, After } = require('@cucumber/cucumber');
 const config = require('../playwright.config');
 const { chromium } = require('playwright');
+const fs = require('fs');
+const path = require('path');
 
 Before(async function () {
   this.browser = await chromium.launch({ headless: config.use.headless });
@@ -18,4 +20,10 @@ After(async function () {
   if (this.browser) await this.browser.close();
 });
 
-
+After(async function (scenario) {
+  if (scenario.result.status === 'FAILED') {
+    const screenshot = await this.page.screenshot();
+    const screenshotPath = path.join('reports/screenshots', `${scenario.pickle.name}.png`);
+    fs.writeFileSync(screenshotPath, screenshot);
+  }
+});

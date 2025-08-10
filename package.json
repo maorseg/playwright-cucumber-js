@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "production": "npx cucumber-js --tags '@smoke' --exit",
-    "test": "npx cucumber-js"
+    "test": "npx cucumber-js",
+    "report": "node generate-report.js",
+    "test:report": "npm run test && npm run report"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
     "@cucumber/cucumber": "^12.1.0",
     "@playwright/test": "^1.54.2",
     "@types/node": "^24.1.0",
+    "multiple-cucumber-html-reporter": "^3.9.3",
     "playwright": "^1.54.2"
   },
   "dependencies": {
