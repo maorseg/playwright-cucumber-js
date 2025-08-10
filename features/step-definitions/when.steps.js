@@ -9,9 +9,9 @@ When('I open the products page', async function () {
     await this.page.getByRole('link', { name: 'products' }).click();
 });
 
-When('I search product', async function () {
+When('I search for product {string}', async function (string) {
     await this.page.click('#search_product');
-    await this.page.fill('#search_product', testData.blueTop); 
+    await this.page.fill('#search_product', string); 
     await this.page.click('#submit_search');
 });
 
