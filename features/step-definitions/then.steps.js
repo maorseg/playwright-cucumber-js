@@ -27,5 +27,11 @@ Then('I verify product added to cart', async function () {
    const page = this.page;
     await expect(page.getByText(testData.addedToCart)).toBeVisible();
  });
- 
 
+Then('the response status code should be {int}', function (expectedStatusCode) {
+  expect(this.apiResponse.status()).toBe(expectedStatusCode);
+});
+
+Then('I verify products list returned', async function () {
+   TODO
+ });

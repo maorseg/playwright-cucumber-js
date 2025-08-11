@@ -20,3 +20,8 @@ Feature: validate products page
     | Half Sleeves Top Schiffli Detailing - Pink |
     | Sleeves Printed Top - White                |
     | Sleeves Top and Short - Blue & Pink        |
+
+  @smoke
+  Scenario: get all products list
+    Given I get all products list
+    Then the response status code should be 200
