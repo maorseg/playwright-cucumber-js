@@ -3,20 +3,21 @@
 
 ### 1. Clone the repo
 
-```bash
-git clone https://github.com/maorseg/playwright-cucumber-js.git
+in vs code, git clone https://github.com/maorseg/playwright-cucumber-js.git
 cd playwright-cucumber-js
 
 2. Install dependencies
 npm install
 
-3. Run tests
+3. Run Tests Locally: From Terminal:
 npm test
 
+Refer to "scripts" in package.json for more running options
+
 🧪 Writing Tests
-Feature files are written in Gherkin syntax inside the features/ folder.
-Step definitions are implemented in JavaScript under step-definitions/.
-Test data and selectors are stored in JSON files (dataTest.json, selectors.json) for easy reuse and maintainability.
+- Feature files are written in Gherkin syntax inside the features/ folder.
+- Step definitions Given/When/Then are implemented in JavaScript under step-definitions/.
+- Test data is stored in JSON file (dataTest.json) for easy reuse and maintainability.
 
 📁 Example Usage
 
@@ -31,7 +32,11 @@ Feature: Validate homepage
 🛠️ Customization
 
 Update dataTest.json to change URLs or expected titles.
-Modify selectors.json to centralize and manage UI element references.
+
+⚙️ CI/CD Integration
+
+All tests are automatically executed via GitHub Actions on every commit.
 
 📃 License
-This project is licensed under the MIT License.
+
+This project is licensed under the MIT License
