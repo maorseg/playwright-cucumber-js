@@ -9,6 +9,7 @@ class CustomWorld {
     // Add these for API testing
     this.apiContext = null;
     this.apiResponse = null;
+    this.response = null;
   }
 }
 

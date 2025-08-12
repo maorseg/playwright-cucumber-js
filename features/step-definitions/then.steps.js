@@ -29,9 +29,11 @@ Then('I verify product added to cart', async function () {
  });
 
 Then('the response status code should be {int}', function (expectedStatusCode) {
-  expect(this.apiResponse.status()).toBe(expectedStatusCode);
+   expect(this.response.status()).toBe(expectedStatusCode);
 });
 
 Then('I verify products list returned', async function () {
-   TODO
+  const apiResponse = await this.response.json();
+  expect(Array.isArray(apiResponse.products)).toBe(true);
+  expect(apiResponse.products.length).toBeGreaterThan(0);
  });

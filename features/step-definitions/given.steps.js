@@ -25,8 +25,8 @@ Given('I login with email {string} and password {string}', async function (email
 });
 
 Given('I get all products list', async function () {
-  this.apiContext = await request.newContext();
-  this.apiResponse = await this.apiContext.get(testData.getAllProductsList);
+ this.apiContext = await request.newContext();
+  this.response = await this.apiContext.get(testData.getAllProductsList);
 });
 
 
