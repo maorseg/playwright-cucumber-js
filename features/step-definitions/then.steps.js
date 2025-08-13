@@ -33,7 +33,18 @@ Then('the response status code should be {int}', function (expectedStatusCode) {
 });
 
 Then('I verify products list returned', async function () {
-  const apiResponse = await this.response.json();
-  expect(Array.isArray(apiResponse.products)).toBe(true);
-  expect(apiResponse.products.length).toBeGreaterThan(0);
+   const apiResponse = await this.response.json();
+   expect(Array.isArray(apiResponse.products)).toBe(true);
+   expect(apiResponse.products.length).toBeGreaterThan(0);
+ });
+
+ Then('I verify products brands returned', async function () {
+   const apiResponse = await this.response.json();
+   //console.log(apiResponse);
+   const brands = apiResponse.products.map(product => product.brand);
+   const expectedBrands = [testData.Polo, testData.Madame, testData.Biba, testData.Babyhug];
+   expectedBrands.forEach(brand => {
+   expect(brands.includes(brand)).toBeTruthy();
+  });
+
  });
