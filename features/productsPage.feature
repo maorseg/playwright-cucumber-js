@@ -27,14 +27,15 @@ Feature: validate products page
     Then the response status code should be 200
     And I verify products list returned
     And I verify for product "<brand>"
+    And I verify for usertype "<usertype>" and category "<category>"
 
       Examples:
-      | brand              |
-      | H&M                |
-      | Polo               |
-      | Madame             |
-      | Biba               |
-      | Mast & Harbour     |
-      | Allen Solly Junior |
-      | Kookie Kids        |
-      | Babyhug            |
+      | brand              | usertype | category |
+      | H&M                | Women    | Tops     |
+      | Polo               | Men      | Tshirts  |
+      | Madame             | Women    | Dress    |
+      | Biba               |          |          |
+      | Mast & Harbour     |          |          |
+      | Allen Solly Junior |          |          |
+      | Kookie Kids        |          |          |
+      | Babyhug            |          |          |

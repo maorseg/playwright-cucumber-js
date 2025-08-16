@@ -44,3 +44,13 @@ Then('I verify for product {string}', async function (brand) {
   const brands = apiResponse.products.map(product => product.brand);
   expect(brands.includes(brand)).toBeTruthy();
 });
+
+Then('I verify for usertype {string} and category {string}', async function (usertype, category) {
+  const apiResponse = await this.response.json();
+  const matches = apiResponse.products.filter(product =>
+    product.category.usertype.usertype === usertype &&
+    product.category.category === category
+  );
+  expect(matches.length).toBeGreaterThan(0);
+});
+
