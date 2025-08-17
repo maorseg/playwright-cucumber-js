@@ -13,13 +13,13 @@ Feature: validate products page
     And I add product to cart
     Then I verify product added to cart
  
-   Examples:
-    | product                                    |
-    | blue top                                   |
-    | Pure Cotton Neon Green Tshirt              |
-    | Half Sleeves Top Schiffli Detailing - Pink |
-    | Sleeves Printed Top - White                |
-    | Sleeves Top and Short - Blue & Pink        |
+      Examples:
+        | product                                    |
+        | blue top                                   |
+        | Pure Cotton Neon Green Tshirt              |
+        | Half Sleeves Top Schiffli Detailing - Pink |
+        | Sleeves Printed Top - White                |
+        | Sleeves Top and Short - Blue & Pink        |
 
   @smoke
   Scenario: get all products list
@@ -30,12 +30,17 @@ Feature: validate products page
     And I verify for usertype "<usertype>" and category "<category>"
 
       Examples:
-      | brand              | usertype | category |
-      | H&M                | Women    | Tops     |
-      | Polo               | Men      | Tshirts  |
-      | Madame             | Women    | Dress    |
-      | Biba               |          |          |
-      | Mast & Harbour     |          |          |
-      | Allen Solly Junior |          |          |
-      | Kookie Kids        |          |          |
-      | Babyhug            |          |          |
+      | brand              | usertype | category      |
+      | Polo               | Women    | Tops          |
+      | H&M                | Men      | Tshirts       |
+      | Madame             | Women    | Dress         |
+      | Mast & Harbour     | Women    | Tops          |
+      | H&M                | Women    | Tops          |
+      | Madame             | Women    | Tops          |
+      | Babyhug            | Kids     | Tops & Shirts |
+      | Allen Solly Junior | Kids     | Tops & Shirts |
+      | Kookie Kids       | Kids      | Tops & Shirts |
+      
+      
+     
+      

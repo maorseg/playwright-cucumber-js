@@ -5,9 +5,9 @@ Feature: Validate login
     And I Secure login
     Then I verify <result> login
 
-    Examples:
-    | result     |
-    | successful |
+      Examples:
+      | result     |
+      | successful |
   
   @smoke
   Scenario Outline: Validate login success and failure
@@ -15,7 +15,7 @@ Feature: Validate login
     And I login with email "<email>" and password "<password>"
     Then I verify <result> login
 
-  Examples:
-    | email                            | password     | result     |
-    | automationexercisetest@gmail.com | qwerty1234!  | successful |
-    | wronguser@gmail.com              | wrongpass123 | failed     |
+      Examples:
+        | email                            | password     | result     |
+        | automationexercisetest@gmail.com | qwerty1234!  | successful |
+        | wronguser@gmail.com              | wrongpass123 | failed     |

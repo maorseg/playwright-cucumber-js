@@ -5,11 +5,11 @@ Feature: test in dev
     Then the response status code should be 200
     And I verify for usertype "<usertype>" and category "<category>"
 
-    Examples:
-      | usertype | category  |
-      | Women    | Tops      |
-      | Men      | Tshirts   |
-      | Women    | Dress     |
+      Examples:
+        | usertype | category  |
+        | Women    | Tops      |
+        | Men      | Tshirts   |
+        | Women    | Dress     |
 
 
     
