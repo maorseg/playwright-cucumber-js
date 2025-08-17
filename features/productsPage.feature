@@ -14,12 +14,12 @@ Feature: validate products page
     Then I verify product added to cart
  
       Examples:
-        | product                                    |
-        | blue top                                   |
-        | Pure Cotton Neon Green Tshirt              |
-        | Half Sleeves Top Schiffli Detailing - Pink |
-        | Sleeves Printed Top - White                |
-        | Sleeves Top and Short - Blue & Pink        |
+      | product                                    |
+      | blue top                                   |
+      | Pure Cotton Neon Green Tshirt              |
+      | Half Sleeves Top Schiffli Detailing - Pink |
+      | Sleeves Printed Top - White                |
+      | Sleeves Top and Short - Blue & Pink        |
 
   @smoke
   Scenario: get all products list

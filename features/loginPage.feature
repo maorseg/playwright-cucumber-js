@@ -16,6 +16,6 @@ Feature: Validate login
     Then I verify <result> login
 
       Examples:
-        | email                            | password     | result     |
-        | automationexercisetest@gmail.com | qwerty1234!  | successful |
-        | wronguser@gmail.com              | wrongpass123 | failed     |
+      | email                            | password     | result     |
+      | automationexercisetest@gmail.com | qwerty1234!  | successful |
+      | wronguser@gmail.com              | wrongpass123 | failed     |
