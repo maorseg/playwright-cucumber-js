@@ -54,3 +54,14 @@ Then('I verify for usertype {string} and category {string}', async function (use
   expect(matches.length).toBeGreaterThan(0);
 });
 
+Then('I verify product added to cart', async function () {
+   const page = this.page;
+    await expect(page.getByText(testData.addedToCart)).toBeVisible();
+ });
+
+Then('I verify form submitted successfully', async function () {
+    const page = this.page;
+    await expect(page.getByText('Success! Your details have been submitted successfully.')).toBeVisible();
+});
+
+
