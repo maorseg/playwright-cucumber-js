@@ -39,7 +39,7 @@ Feature: validate products page
       | Madame             | Women    | Tops          |
       | Babyhug            | Kids     | Tops & Shirts |
       | Allen Solly Junior | Kids     | Tops & Shirts |
-      | Kookie Kids       | Kids      | Tops & Shirts |
+      | Kookie Kids        | Kids     | Tops & Shirts |
       
       
      

@@ -16,8 +16,9 @@ Refer to "scripts" in package.json for more running options
 
 🧪 Writing Tests
 - Feature files are written in Gherkin syntax inside the features/ folder.
-- Step definitions Given/When/Then are implemented in JavaScript under step-definitions/.
+- Step definitions Given/When/Then are implemented in JavaScript under step-definitions/steps.js.
 - Test data is stored in JSON file (dataTest.json) for easy reuse and maintainability.
+- Using the Page Object Model (POM)
 
 📁 Example Usage
 
