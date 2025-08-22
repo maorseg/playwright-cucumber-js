@@ -4,9 +4,1041 @@
     "elements": [
       {
         "description": "",
-        "id": "test-in-dev;get-all-products-list",
+        "id": "validate-contact-form;validate-contact-us",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "validate contact us",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2321824299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2655739599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on contact us",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 474141000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I fill \"test1\" and \"test1@gmail.com\" and \"test1\" and \"test1\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140496599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I submit the form",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269609000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 398299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 456187500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-contact-form;validate-contact-us",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "validate contact us",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 655032300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1921025700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on contact us",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 374051500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I fill \"test2\" and \"test2@gmail.com\" and \"test2\" and \"test2\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215587999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I submit the form",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268765499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 138800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 415721900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-contact-form",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "validate contact form",
+    "tags": [],
+    "uri": "features\\ContactPage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-login;validate-secure-login",
         "keyword": "Scenario",
-        "line": 4,
+        "line": 10,
+        "name": "validate Secure login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 638537300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2425138300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I Secure login",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1262711900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify successful login",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122268199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 115300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 461012000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-login;validate-login-success-and-failure",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Validate login success and failure",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 910453399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2086337999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I login with email \"automationexercisetest@gmail.com\" and password \"qwerty1234!\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1267863199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I verify successful login",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116141400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 134999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 479868699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-login;validate-login-success-and-failure",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Validate login success and failure",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 836146300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2580138800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I login with email \"wronguser@gmail.com\" and password \"wrongpass123\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 851128200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "I verify failed login",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100600099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 74699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 474210100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Validate login",
+    "tags": [],
+    "uri": "features\\LoginPage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-products-page;validate-products-page-is-opened",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "validate products page is opened",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 958826699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2453542299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I open the products page",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 569428399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify products page shown",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 104546699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 162099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 665840000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;search-and-add-various-products-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "search and add various products to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 848785299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2015536699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I open the products page",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 388303899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I search for product \"blue top\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1058254999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I add product to cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 580889999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I verify product added to cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382150600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 606772599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;search-and-add-various-products-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "search and add various products to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 841399899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2776196399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I open the products page",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 537375499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I search for product \"Pure Cotton Neon Green Tshirt\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1166238100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I add product to cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 623568200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I verify product added to cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 388499699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 118500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 545966999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;search-and-add-various-products-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "search and add various products to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 878443899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2686627000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I open the products page",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 400449599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I search for product \"Half Sleeves Top Schiffli Detailing - Pink\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1192061199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I add product to cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 588143199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I verify product added to cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382217199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 149799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 436902600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;search-and-add-various-products-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "search and add various products to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 868191399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2522560499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I open the products page",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 400233700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I search for product \"Sleeves Printed Top - White\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1225031300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I add product to cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 786895900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I verify product added to cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 902516500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 147899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 440909599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;search-and-add-various-products-to-cart",
+        "keyword": "Scenario Outline",
+        "line": 22,
+        "name": "search and add various products to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 841069999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3983813699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I open the products page",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408559900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I search for product \"Sleeves Top and Short - Blue & Pink\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1152265299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I add product to cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 589323700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I verify product added to cart",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 389384400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 453982999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;get-all-products-list",
+        "keyword": "Scenario",
+        "line": 34,
         "name": "get all products list",
         "steps": [
           {
@@ -14,46 +1046,72 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 239640400
+              "duration": 1080314599
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 5,
+            "line": 26,
             "name": "I get all products list",
             "match": {
-              "location": "features\\step-definitions\\given.steps.js:27"
+              "location": "features\\step-definitions\\steps.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 1021513799
+              "duration": 1101846299
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 6,
+            "line": 27,
             "name": "the response status code should be 200",
             "match": {
-              "location": "features\\step-definitions\\then.steps.js:31"
+              "location": "features\\step-definitions\\steps.js:87"
             },
             "result": {
               "status": "passed",
-              "duration": 1895800
+              "duration": 971600
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
+            "line": 28,
             "name": "I verify products list returned",
             "match": {
-              "location": "features\\step-definitions\\then.steps.js:36"
+              "location": "features\\step-definitions\\steps.js:91"
             },
             "result": {
               "status": "passed",
-              "duration": 1919200
+              "duration": 1831799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I verify for product \"Polo\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1672200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I verify for usertype \"Women\" and category \"Tops\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1487599
             }
           },
           {
@@ -61,7 +1119,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 267299
+              "duration": 117499
             }
           },
           {
@@ -69,24 +1127,954 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 80227100
+              "duration": 328883000
             }
           }
         ],
         "tags": [
           {
             "name": "@smoke",
-            "line": 3
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;get-all-products-list",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "get all products list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 697743199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I get all products list",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 302208699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 719700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I verify products list returned",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3085699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I verify for product \"H&M\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2041400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I verify for usertype \"Men\" and category \"Tshirts\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5124899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 128400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 393924800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;get-all-products-list",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "get all products list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 808774799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I get all products list",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 300705300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 591899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I verify products list returned",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1320999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I verify for product \"Madame\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1775899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I verify for usertype \"Women\" and category \"Dress\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1803700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 178299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 463494000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;get-all-products-list",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "get all products list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1067525500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I get all products list",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 374831799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1175200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I verify products list returned",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2629999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I verify for product \"Mast & Harbour\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2091899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I verify for usertype \"Women\" and category \"Tops\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1715200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 113400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 382861100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;get-all-products-list",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "get all products list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 867554000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I get all products list",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 375849900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 805599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I verify products list returned",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4062300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I verify for product \"H&M\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2018100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I verify for usertype \"Women\" and category \"Tops\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1330900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 403413499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;get-all-products-list",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "get all products list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 816176500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I get all products list",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 399299700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 445200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I verify products list returned",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2287799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I verify for product \"Madame\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1335099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I verify for usertype \"Women\" and category \"Tops\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1076100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 64299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 403807100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;get-all-products-list",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "get all products list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 839937900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I get all products list",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 346183900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 709600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I verify products list returned",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1678800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I verify for product \"Babyhug\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2396899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I verify for usertype \"Kids\" and category \"Tops & Shirts\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2908299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 186099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 417642500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;get-all-products-list",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "get all products list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 820533400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I get all products list",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 313231400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I verify products list returned",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1853399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I verify for product \"Allen Solly Junior\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1573900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I verify for usertype \"Kids\" and category \"Tops & Shirts\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1632499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 111399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 446426399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-products-page;get-all-products-list",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "get all products list",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1126133299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "I get all products list",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 328423399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the response status code should be 200",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 727499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I verify products list returned",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2438399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "I verify for product \"Kookie Kids\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1608399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I verify for usertype \"Kids\" and category \"Tops & Shirts\"",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1637900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 91700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 384477700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 24
           }
         ],
         "type": "scenario"
       }
     ],
-    "id": "test-in-dev",
+    "id": "validate-products-page",
     "line": 1,
     "keyword": "Feature",
-    "name": "test in dev",
+    "name": "validate products page",
     "tags": [],
-    "uri": "features\\inDev.feature"
+    "uri": "features\\ProductsPage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-homepage;validate-homepage-is-opened",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "validate homepage is opened",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 880603100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the homepage",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2574921499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click on logo",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 422478199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I verify homepage shown",
+            "match": {
+              "location": "features\\step-definitions\\steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83034499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 112999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 470685400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-homepage",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "validate homepage",
+    "tags": [],
+    "uri": "features\\homePage.feature"
   }
 ]

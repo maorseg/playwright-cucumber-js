@@ -6,7 +6,7 @@
   "scripts": {
     "production": "npx cucumber-js --tags '@smoke' --exit",
     "test": "npx cucumber-js",
-    "dev": "npx cucumber-js features/inDev.feature",
+    "dev": "npx cucumber-js features/devPage.feature",
     "report": "node generate-report.js",
     "test:report": "npm run test && npm run report"
   },
